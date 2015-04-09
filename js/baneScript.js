@@ -1,6 +1,5 @@
 var currentPlayer = "none";
 var currentPlace = 0;
-var data = '{"name": "none", "place": "0"}';
 var story = null;
 
 //INITIALIZATION
@@ -78,6 +77,17 @@ function command(character, place, command)
 			{
 				currentPlace = currentPlace+1;
 			}
+			//game over
+			if(commands[i].crit == "gameOver")
+			{
+				var imgLink = document.getElementById("gameOverImg");
+				imgLink.href = "img/"+character+".png";
+				imgLink.click();
+				currentPlayer = "none";
+				currentPlace = 0 ;
+				return "Great job "+character+"! \n> Who would you like to play as?";
+			}
+			
 			return commands[i].output;
 		}
 	}
