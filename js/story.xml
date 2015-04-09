@@ -31,6 +31,8 @@
 			{"command": "help", "output":"do you need help", "crit":"false"},
 			{"command": "look", "output":"You look around, you see three people with black bags over their heads, two gunmen, and Dr. Pavel.", "crit":"false"},
 			{"command": "get out", "output":"You exit the jeep, the other men also exit the vehicle. As you exit the vehicle, you hear a man in a blue shirt say 'Dr. Pavel, I am CIA.'", "crit":"true"},
+			{"command": "exit", "output":"You exit the jeep, the other men also exit the vehicle. As you exit the vehicle, you hear a man in a blue shirt say 'Dr. Pavel, I am CIA.'", "crit":"true"},			
+			{"command": "walk", "output":"You exit the jeep, the other men also exit the vehicle. As you exit the vehicle, you hear a man in a blue shirt say 'Dr. Pavel, I am CIA.'", "crit":"true"},
 			{"command": "out", "output":"You exit the jeep, the other men also exit the vehicle. As you exit the vehicle, you hear a man in a blue shirt say 'Dr. Pavel, I am CIA.'", "crit":"true"}
 			]
 		</commands>
@@ -51,6 +53,9 @@
 			[
 			{"command": "help", "output":"do you need help", "crit":"false"},
 			{"command": "look", "output":"Dr. Pavel looks scared", "crit":"false"},
+			{"command": "thanks", "output":"You thank CIA for briefcase \n> What do you say next?", "crit":"false"},
+			{"command": "thank", "output":"You thank CIA for briefcase \n> What do you say next?", "crit":"false"},
+			{"command": "thank you", "output":"You thank CIA for briefcase \n> What do you say next?", "crit":"false"},
 			{"command": "he wasnt alone", "output":"CIA looks a Dr. Pavel and says with a wave of his hand 'you dont get to bring friends'. \n> Dr. Pavel responds saying 'they are not my friends.' \n> What do you say now?", "crit":"true"},
 			{"command": "he wasn't alone", "output":"CIA looks a Dr. Pavel and says with a wave of his hand 'you dont get to bring friends'. \n> Dr. Pavel responds saying 'they are not my friends.' \n> What do you say now?", "crit":"true"},
 			{"command": "he was not alone", "output":"CIA looks a Dr. Pavel and says with a wave of his hand 'you dont get to bring friends'. \n> Dr. Pavel responds saying 'they are not my friends.' \n> What do you say now?", "crit":"true"}

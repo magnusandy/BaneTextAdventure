@@ -9,3 +9,6 @@ story.xml
  moves on to the next name tag.
  - It is important to note, that all commands should be written in all lowercase, as the user input is scrubbed and converted to all lowercase
 	before the xml commands are searched.
+	
+video source: https://www.youtube.com/watch?v=VRCM0jWEQjQ
+script source: http://www.imsdb.com/scripts/Dark-Knight-Rises,-The.html
