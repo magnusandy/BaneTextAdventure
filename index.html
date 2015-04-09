@@ -19,11 +19,8 @@
 		{
 			if(e.keyCode == 13)
 			{
-				console = document.getElementById("consoleOutput");
-				console.innerHTML = console.innerHTML + " " + input + "<br>" + "\n>"
-				
-				
-				//clear input box
+				postOutput(input);
+				//clear textbox
 				document.getElementById("consoleInput").value = "";
 			}
 			else
@@ -32,8 +29,10 @@
 			}
 		}
 		
-		function postOutput(text)
+		function postOutput(input)
 		{
+				console = document.getElementById("consoleOutput");
+				console.innerHTML = console.innerHTML + " " + input + "<br>" + "\n>"
 		}
 	</script>
   </head>
