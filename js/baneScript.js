@@ -37,6 +37,15 @@ function postOutput(input)
 
 function command(character, place, command)
 {
+	//special case when at the start with no character picked
+	if(character == "none")
+	{
+		if(command == "driver")
+		{
+			currentPlayer = "driver";
+			return "You are driving a jeep, in the distance you see a plane \n> What would you like to do?";
+		}	
+	}
 	var commands = story.getElementsByTagName("story")[0].getElementsByTagName(character)[place].getElementsByTagName("commands")[0].childNodes[0].nodeValue
 	commands = JSON.parse(commands);
 	for(var i = 0; i<commands.length; i++)
