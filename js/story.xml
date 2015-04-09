@@ -59,6 +59,7 @@
 			{"command": "he wasnt alone", "output":"CIA looks a Dr. Pavel and says with a wave of his hand 'you dont get to bring friends'. \n> Dr. Pavel responds saying 'they are not my friends.' \n> What do you say now?", "crit":"true"},
 			{"command": "he wasn't alone", "output":"CIA looks a Dr. Pavel and says with a wave of his hand 'you dont get to bring friends'. \n> Dr. Pavel responds saying 'they are not my friends.' \n> What do you say now?", "crit":"true"},
 			{"command": "he was not alone", "output":"CIA looks a Dr. Pavel and says with a wave of his hand 'you dont get to bring friends'. \n> Dr. Pavel responds saying 'they are not my friends.' \n> What do you say now?", "crit":"true"}
+			{"command": "he wasn't alone.", "output":"CIA looks a Dr. Pavel and says with a wave of his hand 'you dont get to bring friends'. \n> Dr. Pavel responds saying 'they are not my friends.' \n> What do you say now?", "crit":"true"}
 			]
 		</commands>
 	</driver>
@@ -71,7 +72,41 @@
 			{"command": "don't worry, no charge for them", "output":"CIA asks 'Why would I want them?'", "crit":"true"},
 			{"command": "no charge for them", "output":"CIA asks 'Why would I want them?'", "crit":"true"},
 			{"command": "don't worry, no charge for them", "output":"CIA asks 'Why would I want them?'", "crit":"true"},
+			{"command": "don't worry, no charge for them.", "output":"CIA asks 'Why would I want them?'", "crit":"true"}
 			]
 		</commands>
 	</driver>
+		<driver>
+		<commands>
+			[
+			{"command": "help", "output":"do you need help", "crit":"false"},
+			{"command": "look", "output":"CIA is still confused", "crit":"false"},
+			{"command": "they were trying to grab your prize. they work for the mercenary. the masked man.", "output":"'Bane?' asks CIA \n> how do you respond?", "crit":"true"},
+			{"command": "they were trying to grab your prize they work for the mercenary the masked man", "output":"'Bane?' asks CIA \n> how do you respond?", "crit":"true"},
+			{"command": "they were trying to grab your prize.", "output":"'Bane?' asks CIA \n> how do you respond?", "crit":"true"},
+			{"command": "they were trying to grab your prize", "output":"'Bane?' asks CIA \n> how do you respond?", "crit":"true"},
+			{"command": "they work for the mercenary.", "output":"'Bane?' asks CIA \n> how do you respond?", "crit":"true"},
+			{"command": "they work for the mercenary", "output":"'Bane?' asks CIA \n> how do you respond?", "crit":"true"},
+			{"command": "the masked man.", "output":"'Bane?' asks CIA \n> how do you respond?", "crit":"true"},
+			{"command": "the masked man", "output":"'Bane?' asks CIA \n> how do you respond?", "crit":"true"}
+			]
+		</commands>
+	</driver>
+		<driver>
+		<commands>
+			[
+			{"command": "help", "output":"do you need help", "crit":"false"},
+			{"command": "look", "output":"CIA is very excited now", "crit":"false"},
+			{"command": "nod", "output":"You nod towards CIA, as you turn to go back to the jeep, you hear CIA shouting excitedly to his men, 'Get em on board, I'll call it in!'", "crit":"true"},	
+			{"command": "nod head", "output":"You nod towards CIA, as you turn to go back to the jeep, you hear CIA shouting excitedly to his men, 'Get em on board, I'll call it in!'", "crit":"true"}
+			]
+		</commands>
+	</driver>
+			<commands>
+			[
+			{"command": "help", "output":"do you need help", "crit":"false"},
+			{"command": "look", "output":"You and your men have piled back into the Jeep", "crit":"false"},
+			{"command": "drive", "output":"You drive away from the plane", "crit":"gameOver"}
+			]
+		</commands>
 </story>
