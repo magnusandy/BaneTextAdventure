@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <story>
 	<none>
-		<xx>
-			<help>no help here</help>
-		</xx>
+		<commands>
+		[
+		{"command": "help", "output":"do you need help", "crit":"false"},
+		{"command": "bane?", "output":"superbane", "crit":"true"}
+		]
+		</commands>	
+	</none>
+	<none>
+		<commands>
+		[
+		{"command": "help", "output":"do you need help2", "crit":"false"},
+		{"command": "bane?", "output":"superbane2", "crit":"false"}
+		]
+		</commands>
 	</none>
 </story>
