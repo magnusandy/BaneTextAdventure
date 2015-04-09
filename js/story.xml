@@ -62,4 +62,16 @@
 			]
 		</commands>
 	</driver>
+	<driver>
+		<commands>
+			[
+			{"command": "help", "output":"do you need help", "crit":"false"},
+			{"command": "look", "output":"CIA is confused", "crit":"false"},
+			{"command": "dont worry, no charge for them", "output":"CIA asks 'Why would I want them?'", "crit":"true"},
+			{"command": "don't worry, no charge for them", "output":"CIA asks 'Why would I want them?'", "crit":"true"},
+			{"command": "no charge for them", "output":"CIA asks 'Why would I want them?'", "crit":"true"},
+			{"command": "don't worry, no charge for them", "output":"CIA asks 'Why would I want them?'", "crit":"true"},
+			]
+		</commands>
+	</driver>
 </story>
