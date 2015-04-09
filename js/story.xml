@@ -58,7 +58,7 @@
 			{"command": "thank you", "output":"You thank CIA for briefcase \n> What do you say next?", "crit":"false"},
 			{"command": "he wasnt alone", "output":"CIA looks a Dr. Pavel and says with a wave of his hand 'you dont get to bring friends'. \n> Dr. Pavel responds saying 'they are not my friends.' \n> What do you say now?", "crit":"true"},
 			{"command": "he wasn't alone", "output":"CIA looks a Dr. Pavel and says with a wave of his hand 'you dont get to bring friends'. \n> Dr. Pavel responds saying 'they are not my friends.' \n> What do you say now?", "crit":"true"},
-			{"command": "he was not alone", "output":"CIA looks a Dr. Pavel and says with a wave of his hand 'you dont get to bring friends'. \n> Dr. Pavel responds saying 'they are not my friends.' \n> What do you say now?", "crit":"true"}
+			{"command": "he was not alone", "output":"CIA looks a Dr. Pavel and says with a wave of his hand 'you dont get to bring friends'. \n> Dr. Pavel responds saying 'they are not my friends.' \n> What do you say now?", "crit":"true"},
 			{"command": "he wasn't alone.", "output":"CIA looks a Dr. Pavel and says with a wave of his hand 'you dont get to bring friends'. \n> Dr. Pavel responds saying 'they are not my friends.' \n> What do you say now?", "crit":"true"}
 			]
 		</commands>
@@ -102,6 +102,7 @@
 			]
 		</commands>
 	</driver>
+	<driver>
 			<commands>
 			[
 			{"command": "help", "output":"do you need help", "crit":"false"},
@@ -109,4 +110,5 @@
 			{"command": "drive", "output":"You drive away from the plane", "crit":"gameOver"}
 			]
 		</commands>
+	</driver>
 </story>
