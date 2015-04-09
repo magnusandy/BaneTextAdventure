@@ -30,7 +30,8 @@
 			[
 			{"command": "help", "output":"do you need help", "crit":"false"},
 			{"command": "look", "output":"You look around, you see three people with black bags over their heads, two gunmen, and Dr. Pavel.", "crit":"false"},
-			{"command": "get out", "output":"You exit the jeep, the other men also exit the vehicle. As you exit the vehicle, you hear a man in a blue shirt say 'Dr. Pavel, I am CIA.'", "crit":"true"}
+			{"command": "get out", "output":"You exit the jeep, the other men also exit the vehicle. As you exit the vehicle, you hear a man in a blue shirt say 'Dr. Pavel, I am CIA.'", "crit":"true"},
+			{"command": "out", "output":"You exit the jeep, the other men also exit the vehicle. As you exit the vehicle, you hear a man in a blue shirt say 'Dr. Pavel, I am CIA.'", "crit":"true"}
 			]
 		</commands>
 	</driver>
@@ -51,6 +52,7 @@
 			{"command": "help", "output":"do you need help", "crit":"false"},
 			{"command": "look", "output":"Dr. Pavel looks scared", "crit":"false"},
 			{"command": "he wasnt alone", "output":"CIA looks a Dr. Pavel and says with a wave of his hand 'you dont get to bring friends'. \n> Dr. Pavel responds saying 'they are not my friends.' \n> What do you say now?", "crit":"true"},
+			{"command": "he wasn't alone", "output":"CIA looks a Dr. Pavel and says with a wave of his hand 'you dont get to bring friends'. \n> Dr. Pavel responds saying 'they are not my friends.' \n> What do you say now?", "crit":"true"},
 			{"command": "he was not alone", "output":"CIA looks a Dr. Pavel and says with a wave of his hand 'you dont get to bring friends'. \n> Dr. Pavel responds saying 'they are not my friends.' \n> What do you say now?", "crit":"true"}
 			]
 		</commands>
