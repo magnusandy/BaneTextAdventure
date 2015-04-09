@@ -4,5 +4,15 @@ color: white;
 }
 
 #consoleInput{
-background-color:grey;
+background-color:black;
+color: white;
+}
+
+#consoleOutput{
+background-color: black;
+color: white;
+}
+
+.form-control:focus {
+  border-color: white;
 }
