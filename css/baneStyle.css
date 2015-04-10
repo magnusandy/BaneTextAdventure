@@ -11,8 +11,15 @@ color: white;
 #consoleOutput{
 background-color: black;
 color: white;
+resize: none;
+}
+
+.form-control {
+  border-color: black;
+  color: white;
 }
 
 .form-control:focus {
-  border-color: white;
+  border-color: black;
+  color: white;
 }

@@ -25,18 +25,18 @@
   </head>
 
   <body>
-    <div class="container">
+    <div class="container" id="page" >
 
-      <div class="page-header">
+     
 	  <a id="gameOverImg"  data-lightbox="driver"></a>
-		<h1>Bane?</h1>
-      </div>
+		<h1></h1>
+      
     
-      <div class="row">
+      <div class="row" id="baneRow">
         <div class="col-md-12">
-			<textarea class="form-control" rows="20" readonly="true" id="consoleOutput"></textarea>
+			<textarea class="form-control" rows="20" readonly="true" id="consoleOutput" onkeypress="focusInput(event)"></textarea>
 			<div>
-			<input type="text" class="form-control" id="consoleInput" onkeypress="inputEnter(event, document.getElementById('consoleInput').value)">
+			<input placeholder=">" type="text" class="form-control" id="consoleInput" onkeypress="inputEnter(event, document.getElementById('consoleInput').value)">
 			</div>
 		</div>
       </div>

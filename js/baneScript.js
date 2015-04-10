@@ -30,6 +30,14 @@ function inputEnter(e, input)
 	}
 }
 
+function focusInput(key)
+{
+	var input = document.getElementById("consoleInput");
+	input.value = String.fromCharCode(key.charCode);
+	input.focus();
+	
+}
+
 /**
 * posts the given string input to the page console
 */
