@@ -7,6 +7,17 @@
 			]
 		</commands>	
 	</none>
+	<cia>
+		<commands>
+			[
+			{"command": "help", "output":"do you need help", "crit":"false"},
+			{"command": "look", "output":"The vehicle you are waiting for is still a ways off", "crit":"false"},
+			{"command": "wait", "output":"The jeep pulls up in front of you, the driver and 2 men with guns get out, they are leading 3 hooded man an Dr. Pavel,", "crit":"true"},
+			{"command": "wait for jeep", "output":"The jeep pulls up in front of you, the driver and 2 men with guns get out, they are leading 3 hooded man and Dr. Pavel,", "crit":"true"},
+			{"command": "stand", "output":"The jeep pulls up in front of you, the driver and 2 men with guns get out, they are leading 3 hooded man an Dr. Pavel,", "crit":"true"}
+			]
+		</commands>
+	</cia>
 	<driver>
 		<commands>
 			[
