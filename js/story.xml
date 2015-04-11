@@ -23,6 +23,19 @@
 			[
 			{"command": "help", "output":"do you need help", "crit":"false"},
 			{"command": "look", "output":"You look around, you see three people with black bags over their heads, two gunmen, and Dr. Pavel", "crit":"false"},
+			{"command": "wheel", "output":"You grab the steering wheel, the plane is in the distance", "crit":"true"},
+			{"command": "grab wheel", "output":"You grab the steering wheel, the plane is in the distance", "crit":"true"},
+			{"command": "grab steering wheel", "output":"You grab the steering wheel, the plane is in the distance", "crit":"true"},
+			{"command": "steering wheel", "output":"You grab the steering wheel, the plane is in the distance", "crit":"true"},
+			{"command": "steer", "output":"You grab the steering wheel, the plane is in the distance", "crit":"true"}
+			]
+		</commands>
+	</driver>
+	<driver>
+		<commands>
+			[
+			{"command": "help", "output":"do you need help", "crit":"false"},
+			{"command": "look", "output":"You look around, you see three people with black bags over their heads, two gunmen, and Dr. Pavel", "crit":"false"},
 			{"command": "drive", "output":"You continue driving towards the plane.", "crit":"true"}
 			]
 		</commands>
@@ -109,6 +122,8 @@
 			{"command": "help", "output":"do you need help", "crit":"false"},
 			{"command": "look", "output":"CIA is very excited now", "crit":"false"},
 			{"command": "nod", "output":"You nod towards CIA, as you turn to go back to the jeep, you hear CIA shouting excitedly to his men, 'Get em on board, I'll call it in!'. CIA and soldiers board the plane behind the masked prisoners and Dr. Pavel\n>The twin turbines roar to life as the plane taxies off, pulling up as it climbs higher into the sky, leaving you behind.\n>You hope Bane can pull off the heist.\n> You enter the Jeep.", "crit":"true"},	
+			{"command": "ah", "output":"You nod towards CIA, as you turn to go back to the jeep, you hear CIA shouting excitedly to his men, 'Get em on board, I'll call it in!'. CIA and soldiers board the plane behind the masked prisoners and Dr. Pavel\n>The twin turbines roar to life as the plane taxies off, pulling up as it climbs higher into the sky, leaving you behind.\n>You hope Bane can pull off the heist.\n> You enter the Jeep.", "crit":"true"},	
+			{"command": "ah nod", "output":"You nod towards CIA, as you turn to go back to the jeep, you hear CIA shouting excitedly to his men, 'Get em on board, I'll call it in!'. CIA and soldiers board the plane behind the masked prisoners and Dr. Pavel\n>The twin turbines roar to life as the plane taxies off, pulling up as it climbs higher into the sky, leaving you behind.\n>You hope Bane can pull off the heist.\n> You enter the Jeep.", "crit":"true"},	
 			{"command": "nod head", "output":"You nod towards CIA, as you turn to go back to the jeep, you hear CIA shouting excitedly to his men, 'Get em on board, I'll call it in!'. CIA and soldiers board the plane behind the masked prisoners and Dr. Pavel\n>The twin turbines roar to life as the plane taxies off, pulling up as it climbs higher into the sky, leaving you behind.\n>You hope Bane can pull off the heist.\n> You enter the Jeep.", "crit":"true"}
 			]
 		</commands>
