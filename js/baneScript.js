@@ -69,7 +69,7 @@ function command(character, place, command)
 		if(command == "driver")
 		{
 			currentPlayer = "driver";
-			return "You are driving a jeep, in the distance you see a plane \n> What would you like to do?";
+			return "You are in a jeep, the steering wheel is before you, in the distance you see a plane \n> What would you like to do?";
 		}
 		//start story as cia now with game of thrones references
 		/*if((command == "cia") || (command == "cia man") || (command == "littlefinger") || (command == "little finger") || (command == "petyr baelish"))
