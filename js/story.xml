@@ -84,7 +84,7 @@
 			{"command": "get em on board i'll call it in", "output":"Your special forces men move towards the prisoners, grabbing them roughly and frog marching them into the carrier plane.", "crit":"true"},
 			{"command": "get 'em on board - ill call it in", "output":"Your special forces men move towards the prisoners, grabbing them roughly and frog marching them into the carrier plane.", "crit":"true"},
 			{"command": "get 'em on board ill call it in", "output":"Your special forces men move towards the prisoners, grabbing them roughly and frog marching them into the carrier plane.", "crit":"true"},
-			{"command": "get em on board  ill call it in", "output":"Your special forces men move towards the prisoners, grabbing them roughly and frog marching them into the carrier plane.", "crit":"true"},
+			{"command": "get em on board ill call it in", "output":"Your special forces men move towards the prisoners, grabbing them roughly and frog marching them into the carrier plane.", "crit":"true"},
 			{"command": "get them on board i'll call it in", "output":"Your special forces men move towards the prisoners, grabbing them roughly and frog marching them into the carrier plane.", "crit":"true"},
 			{"command": "get them on board ill call it in", "output":"Your special forces men move towards the prisoners, grabbing them roughly and frog marching them into the carrier plane.", "crit":"true"},
 			{"command": "get them on board", "output":"Your special forces men move towards the prisoners, grabbing them roughly and frog marching them into the carrier plane.", "crit":"true"},
@@ -112,9 +112,10 @@
 			[
 			{"command": "help", "output":"do you need help", "crit":"false"},
 			{"command": "look", "output":"the prisoners are handcuffed, and kneeling before you.", "crit":"false"},
-			{"command": "The flight plan i just filed with the agency lists me, my men, and dr. pavel here. but only one of you.", "output":"As you yell, you back away from the prisoners.", "crit":"true"},
-			{"command": "but only one of you.", "output":"As you yell, you back away from the prisoners.", "crit":"true"},
-			{"command": "The flight plan i just filed with the agency lists me, my men, and dr. pavel here.", "output":"As you yell, you back away from the prisoners.", "crit":"true"},
+			{"command": "The flight plan i just filed with the agency lists me my men and dr pavel here but only one of you", "output":"As you yell, you back away from the prisoners.", "crit":"true"},
+			{"command": "but only one of you", "output":"As you yell, you back away from the prisoners.", "crit":"true"},
+			{"command": "The flight plan i just filed with the agency lists me my men and dr pavel here", "output":"As you yell, you back away from the prisoners.", "crit":"true"},
+			{"command": "The flight plan i just filed with the agency lists me my men and dr pavel here but only one of you", "output":"As you yell, you back away from the prisoners.", "crit":"true"},
 			{"command": "flight plan", "output":"As you yell, you back away from the prisoners.", "crit":"true"},
 			{"command": "yell", "output":"As you yell, you back away from the prisoners.", "crit":"true"}
 			]
@@ -174,7 +175,7 @@
 		<commands>
 			[
 			{"command": "help", "output":"do you need help", "crit":"false"},
-			{"command": "look", "output":"you see the mountains far below you outside the plane and a hooded figure with his head outside the door at your feet, your gun is pointed outside", "crit":"false"},
+			{"command": "look", "output":"the special ops man is dragging  the first prisoner to the back of  the plane", "crit":"false"},
 			{"command": "he didnt fly so good who wants to try next", "output":"You motion to another prisoner and special ops grab him and stick his head outside the window also, you crouch very near to this man as well.\n> What do you ask him?", "crit":"true"},
 			{"command": "he didnt fly so good", "output":"You motion to another prisoner and special ops grab him and stick his head outside the window also, you crouch very near to this man as well.\n> What do you ask him?", "crit":"true"},
 			{"command": "who wants to try next", "output":"You motion to another prisoner and special ops grab him and stick his head outside the window also, you crouch very near to this man as well.\n> What do you ask him?", "crit":"true"},
@@ -192,6 +193,122 @@
 			{"command": "tell me about bane", "output":"the prisoner does not speak, you straddle the man dangling out the plane, and point your uncocked gun at his head.", "crit":"true"},
 			{"command": "why does he wear the mask", "output":"the prisoner does not speak, you straddle the man dangling out the plane, and point your uncocked gun at his head.", "crit":"true"},
 			{"command": "yell", "output":"the prisoner does not speak, you straddle the man dangling out the plane, and point your uncocked gun at his head.", "crit":"true"}
+			]
+		</commands>
+	</cia>
+	<cia>
+		<commands>
+			[
+			{"command": "help", "output":"do you need help", "crit":"false"},
+			{"command": "look", "output":"you gun is uncocked against the mans temple", "crit":"false"},
+			{"command": "cock", "output":"You cock your gun in an attempt to intimidate the man, his is unresponsive.", "crit":"true"},
+			{"command": "cock gun", "output":"You cock your gun in an attempt to intimidate the man, his is unresponsive.", "crit":"true"},
+			{"command": "gun", "output":"You cock your gun in an attempt to intimidate the man, his is unresponsive.", "crit":"true"},
+			{"command": "load", "output":"You cock your gun in an attempt to intimidate the man, his is unresponsive.", "crit":"true"},
+			{"command": "load gun", "output":"You cock your gun in an attempt to intimidate the man, his is unresponsive.", "crit":"true"}
+			]
+		</commands>
+	</cia>
+	<cia>
+		<commands>
+			[
+			{"command": "help", "output":"do you need help", "crit":"false"},
+			{"command": "look", "output":"the wind roars, the man lays motionless underneath you", "crit":"false"},
+			{"command": "lot of loyalty for a hired gun", "output":"You yell in the mans ear again, and pause, waiting for a response, instead of the prisoner, a deep voice speaks from behind you, you turn, and the third man speaks 'Or perhaps he is wondering why someone would shoot a man before throwing him out of an aeroplane' you stumble your way into the plane, grabbing a seat for balance and stand erect before the last man.\n> what do you say?", "crit":"true"},
+			{"command": "lot of loyalty", "output":"You yell in the mans ear again, and pause, waiting for a response, instead of the prisoner, a deep voice speaks from behind you, you turn, and the third man speaks 'Or perhaps he is wondering why someone would shoot a man before throwing him out of an aeroplane' you stumble your way into the plane, grabbing a seat for balance and stand erect before the last man.\n> what do you say?", "crit":"true"}
+			]
+		</commands>
+	</cia>
+	<cia>
+		<commands>
+			[
+			{"command": "help", "output":"do you need help", "crit":"false"},
+			{"command": "look", "output":"you see a hooded man before you.", "crit":"false"},
+			{"command": "at least you can talk who are you", "output":"The hooded man before you says 'it doesnt matter who we are, what matters is our plan'. You kneel before the prisoner", "crit":"true"},
+			{"command": "at least you can talk", "output":"The hooded man before you says 'it doesnt matter who we are, what matters is our plan'. You kneel before the prisoner", "crit":"true"},
+			{"command": "who are you", "output":"The hooded man before you says 'it doesnt matter who we are, what matters is our plan'. You kneel before the prisoner", "crit":"true"}
+			]
+		</commands>
+	</cia>
+	<cia>
+		<commands>
+			[
+			{"command": "help", "output":"do you need help", "crit":"false"},
+			{"command": "look", "output":"you are at eye level with the hooded man.", "crit":"false"},
+			{"command": "hood", "output":"you tentatively pull the hood off the prisoner, revealing Bane, the masked man, your heart is pumping. Bane speaks 'No body cared who I was till I put on the mask'", "crit":"true"},
+			{"command": "remove hood", "output":"you tentatively pull the hood off the prisoner, revealing Bane, the masked man, your heart is pumping. Bane speaks 'No body cared who I was till I put on the mask'", "crit":"true"},
+			{"command": "mask", "output":"you tentatively pull the hood off the prisoner, revealing Bane, the masked man, your heart is pumping. Bane speaks 'No body cared who I was till I put on the mask'", "crit":"true"},
+			{"command": "cover", "output":"you tentatively pull the hood off the prisoner, revealing Bane, the masked man, your heart is pumping. Bane speaks 'No body cared who I was till I put on the mask'", "crit":"true"},
+			{"command": "take off hood", "output":"you tentatively pull the hood off the prisoner, revealing Bane, the masked man, your heart is pumping. Bane speaks 'No body cared who I was till I put on the mask'", "crit":"true"},
+			{"command": "pull", "output":"you tentatively pull the hood off the prisoner, revealing Bane, the masked man, your heart is pumping. Bane speaks 'No body cared who I was till I put on the mask'", "crit":"true"},
+			{"command": "remove", "output":"you tentatively pull the hood off the prisoner, revealing Bane, the masked man, your heart is pumping. Bane speaks 'No body cared who I was till I put on the mask'", "crit":"true"}
+			]
+		</commands>
+	</cia>
+	<cia>
+		<commands>
+			[
+			{"command": "help", "output":"do you need help", "crit":"false"},
+			{"command": "look", "output":"The man before you is Bane, he has a breathing apparatus on, you think it might be keeping him alive", "crit":"false"},
+			{"command": "if i pull that off will you die", "output":"'It would be extremely painful-'", "crit":"true"},
+			{"command": "if i pull that off ", "output":"'It would be extremely painful-'", "crit":"true"},
+			{"command": "will you die", "output":"'It would be extremely painful-'", "crit":"true"},
+			{"command": "if i pull this off will you die", "output":"'It would be extremely painful-'", "crit":"true"}
+			]
+		</commands>
+	</cia>
+	<cia>
+		<commands>
+			[
+			{"command": "help", "output":"do you need help", "crit":"false"},
+			{"command": "look", "output":"Bane looks pretty big.", "crit":"false"},
+			{"command": "your a big guy", "output":"'-For you.'\n> Banes last comment unnerves you, but you continue to question him, what do you say?", "crit":"true"},
+			{"command": "youre a big guy", "output":"'-For you.'\n> Banes last comment unnerves you, but you continue to question him, what do you say?", "crit":"true"},
+			{"command": "big guy", "output":"'-For you.'\n> Banes last comment unnerves you, but you continue to question him, what do you say?", "crit":"true"}
+			]
+		</commands>
+	</cia>
+	<cia>
+		<commands>
+			[
+			{"command": "help", "output":"do you need help", "crit":"false"},
+			{"command": "look", "output":"you are nervous at Banes calmness.", "crit":"false"},
+			{"command": "was getting caught part of your plan", "output":"'Of Course!' exclaims Bane. 'Dr. Pavel refused our offer in favor of yours, we have to find out what he told you - ', 'Nothing!, I said nothing' cries Dr. Pavel", "crit":"true"},
+			{"command": "getting caught", "output":"'Of Course!' exclaims Bane. 'Dr. Pavel refused our offer in favor of yours, we have to find out what he told you - ', 'Nothing!, I said nothing' cries Dr. Pavel", "crit":"true"},
+			{"command": "part of your plan", "output":"'Of Course!' exclaims Bane. 'Dr. Pavel refused our offer in favor of yours, we have to find out what he told you - ', 'Nothing!, I said nothing' cries Dr. Pavel", "crit":"true"}
+			]
+		</commands>
+	</cia>
+	<cia>
+		<commands>
+			[
+			{"command": "help", "output":"do you need help", "crit":"false"},
+			{"command": "look", "output":"Dr. Pavel is frightened", "crit":"false"},
+			{"command": "well congratulations you got yourself caught", "output":"'Sir!' exclaims the Special Ops Sergant", "crit":"true"},
+			{"command": "well congratulations", "output":"'Sir!' exclaims the Special Ops Sergant", "crit":"true"},
+			{"command": "you got yourself caught", "output":"'Sir!' exclaims the Special Ops Sergant", "crit":"true"},
+			{"command": "congratulations", "output":"'Sir!' exclaims the Special Ops Sergant", "crit":"true"},
+			{"command": "congratz", "output":"'Sir!' exclaims the Special Ops Sergant", "crit":"true"}
+			]
+		</commands>
+	</cia>
+	<cia>
+		<commands>
+			[
+			{"command": "help", "output":"do you need help", "crit":"false"},
+			{"command": "look", "output":"The seargent is looking beseechingly at you, you hear a rumble from outside", "crit":"false"},
+			{"command": "now what is the next step in your master plan", "output":"'Crashing this Plane!' proclaims Bane as he stares intently at you. Bane leaps you his feet, breaks his bonds and says, 'With No survivors!'. Your heart begins pounding. Bullets start spraying into the cabin through the windows your men are terribly confused, Bane launches himself towards you, and punches you in the face, you grab your throat in pain and fall to the ground. the plane begins to dive and you fall towards the front of the plane. from outside you hear the sound of shearing metal. Special Ops men are falling on top of you like leaves in a fall breeze. Bane groans and looks towards you, dangling by one arm from a seat above, the tail end of the plane blows off in a shower of debris, you hear Dr. Pavel shouting and sturggling you hear Bane talking to his men, but you cannot make out the words from below the pile of Special Ops men, You know this is the end as you plummet with the plane.\n> Your story is over, type finish to play again.", "crit":"true"},
+			{"command": "now what is the next step", "output":"'Crashing this Plane!' proclaims Bane as he stares intently at you. Bane leaps you his feet, breaks his bonds and says, 'With No survivors!'. Your heart begins pounding. Bullets start spraying into the cabin through the windows your men are terribly confused, Bane launches himself towards you, and punches you in the face, you grab your throat in pain and fall to the ground. the plane begins to dive and you fall towards the front of the plane. from outside you hear the sound of shearing metal. Special Ops men are falling on top of you like leaves in a fall breeze. Bane groans and looks towards you, dangling by one arm from a seat above, the tail end of the plane blows off in a shower of debris, you hear Dr. Pavel shouting and sturggling you hear Bane talking to his men, but you cannot make out the words from below the pile of Special Ops men, You know this is the end as you plummet with the plane.\n> Your story is over, type finish to play again.", "crit":"true"},
+			{"command": "master plan", "output":"'Crashing this Plane!' proclaims Bane as he stares intently at you. Bane leaps you his feet, breaks his bonds and says, 'With No survivors!'. Your heart begins pounding. Bullets start spraying into the cabin through the windows your men are terribly confused, Bane launches himself towards you, and punches you in the face, you grab your throat in pain and fall to the ground. the plane begins to dive and you fall towards the front of the plane. from outside you hear the sound of shearing metal. Special Ops men are falling on top of you like leaves in a fall breeze. Bane groans and looks towards you, dangling by one arm from a seat above, the tail end of the plane blows off in a shower of debris, you hear Dr. Pavel shouting and sturggling you hear Bane talking to his men, but you cannot make out the words from below the pile of Special Ops men, You know this is the end as you plummet with the plane.\n> Your story is over, type finish to play again.", "crit":"true"}
+			]
+		</commands>
+	</cia>
+	<cia>
+		<commands>
+			[
+			{"command": "help", "output":"do you need help", "crit":"false"},
+			{"command": "look", "output":"The seargent is looking beseechingly at you, you hear a rumble from outside", "crit":"false"},
+			{"command": "finish", "output":"", "crit":"gameOver"}
 			]
 		</commands>
 	</cia>
