@@ -3,7 +3,7 @@
 	<none>
 		<commands>
 			[
-			{"command": "help", "output":"try playing as 'driver'", "crit":"false"}
+			{"command": "help", "output":"try playing as 'driver' or 'CIA'", "crit":"false"}
 			]
 		</commands>	
 	</none>
