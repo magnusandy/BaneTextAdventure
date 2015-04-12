@@ -59,6 +59,7 @@ function scrubCommands(input)
 	input = input.replace(/\./g, '');
 	input = input.replace(/\?/g, '');
 	input = input.replace(/"/g, '');
+	input = input.replace(/,/g, '');
 	return input;
 }
 
