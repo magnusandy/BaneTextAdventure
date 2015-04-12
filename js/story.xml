@@ -12,9 +12,186 @@
 			[
 			{"command": "help", "output":"do you need help", "crit":"false"},
 			{"command": "look", "output":"The vehicle you are waiting for is still a ways off", "crit":"false"},
-			{"command": "wait", "output":"The jeep pulls up in front of you, the driver and 2 men with guns get out, they are leading 3 hooded man an Dr. Pavel,", "crit":"true"},
-			{"command": "wait for jeep", "output":"The jeep pulls up in front of you, the driver and 2 men with guns get out, they are leading 3 hooded man and Dr. Pavel,", "crit":"true"},
-			{"command": "stand", "output":"The jeep pulls up in front of you, the driver and 2 men with guns get out, they are leading 3 hooded man an Dr. Pavel,", "crit":"true"}
+			{"command": "wait", "output":"The jeep pulls up in front of you, the driver and 2 men with guns get out, they are leading 3 hooded man an Dr. Pavel\n> What would you like to say?", "crit":"true"},
+			{"command": "wait for jeep", "output":"The jeep pulls up in front of you, the driver and 2 men with guns get out, they are leading 3 hooded man and Dr. Pavel\n> What would you like to say?", "crit":"true"},
+			{"command": "stand", "output":"The jeep pulls up in front of you, the driver and 2 men with guns get out, they are leading 3 hooded man an Dr. Pavel\n> What would you like to say?", "crit":"true"}
+			]
+		</commands>
+	</cia>
+	<cia>
+		<commands>
+			[
+			{"command": "help", "output":"do you need help", "crit":"false"},
+			{"command": "look", "output":"the driver and his men are approaching with 3 hooded men and Dr. Pavel", "crit":"false"},
+			{"command": "dr. pavel i'm cia", "output":"As you speak, you pass your briefcase to the Driver of the jeep. As you do, the driver says 'He wasn't alone.'\n> What do you say now?", "crit":"true"},
+			{"command": "dr pavel i'm cia", "output":"As you speak, you pass your briefcase to the Driver of the jeep. As you do, the driver says 'He wasn't alone.'\n> What do you say now?", "crit":"true"},
+			{"command": "dr. pavel im cia", "output":"As you speak, you pass your briefcase to the Driver of the jeep. As you do, the driver says 'He wasn't alone.'\n> What do you say now?", "crit":"true"},
+			{"command": "dr pavel im cia", "output":"As you speak, you pass your briefcase to the Driver of the jeep. As you do, the driver says 'He wasn't alone.'\n> What do you say now?", "crit":"true"},
+			{"command": "i'm cia", "output":"As you speak, you pass your briefcase to the Driver of the jeep. As you do, the driver says 'He wasn't alone.'\n> What do you say now?", "crit":"true"},
+			{"command": "im cia", "output":"As you speak, you pass your briefcase to the Driver of the jeep. As you do, the driver says 'He wasn't alone.'\n> What do you say now?", "crit":"true"},
+			{"command": "dr. pavel, i'm cia", "output":"As you speak, you pass your briefcase to the Driver of the jeep. As you do, the driver says 'He wasn't alone.'\n> What do you say now?", "crit":"true"},
+			{"command": "dr pavel, i'm cia", "output":"As you speak, you pass your briefcase to the Driver of the jeep. As you do, the driver says 'He wasn't alone.'\n> What do you say now?", "crit":"true"},
+			{"command": "dr. pavel, im cia", "output":"As you speak, you pass your briefcase to the Driver of the jeep. As you do, the driver says 'He wasn't alone.'\n> What do you say now?", "crit":"true"},
+			{"command": "dr pavel, im cia", "output":"As you speak, you pass your briefcase to the Driver of the jeep. As you do, the driver says 'He wasn't alone.'\n> What do you say now?", "crit":"true"}
+			]
+		</commands>
+	</cia>
+	<cia>
+		<commands>
+			[
+			{"command": "help", "output":"do you need help", "crit":"false"},
+			{"command": "look", "output":"Dr. Pavel is before you, the driver now has the briefcase", "crit":"false"},
+			{"command": "ah, you don't get to bring friends", "output":"'They are not my friends' replies Dr. Pavel. \n> 'Don't worry, no charge for them' chimes in the Driver \n> How do you respond? ", "crit":"true"},
+			{"command": "ah you dont get to bring friends", "output":"'They are not my friends' replies Dr. Pavel. \n> 'Don't worry, no charge for them' chimes in the Driver \n> How do you respond? ", "crit":"true"},
+			{"command": "ah you don't get to bring friends", "output":"'They are not my friends' replies Dr. Pavel. \n> 'Don't worry, no charge for them' chimes in the Driver \n> How do you respond? ", "crit":"true"},
+			{"command": "ah, you dont get to bring friends", "output":"'They are not my friends' replies Dr. Pavel. \n> 'Don't worry, no charge for them' chimes in the Driver \n> How do you respond? ", "crit":"true"},
+			{"command": "you don't get to bring friends", "output":"'They are not my friends' replies Dr. Pavel. \n> 'Don't worry, no charge for them' chimes in the Driver \n> How do you respond? ", "crit":"true"},
+			{"command": "you dont get to bring friends", "output":"'They are not my friends' replies Dr. Pavel. \n> 'Don't worry, no charge for them' chimes in the Driver \n> How do you respond? ", "crit":"true"}
+			]
+		</commands>
+	</cia>
+	<cia>
+		<commands>
+			[
+			{"command": "help", "output":"do you need help", "crit":"false"},
+			{"command": "look", "output":"The armed men are shuffling around the hooded prisoners", "crit":"false"},
+			{"command": "and why would i want them?", "output":"'They were trying to grab your prize. They work for the mercenary. The masked man' replies the Driver\n> How do you respond?", "crit":"true"},
+			{"command": "and why would i want them", "output":"'They were trying to grab your prize. They work for the mercenary. The masked man' replies the Driver\n> How do you respond?", "crit":"true"},
+			{"command": "why would i want them?", "output":"'They were trying to grab your prize. They work for the mercenary. The masked man' replies the Driver\n> How do you respond?", "crit":"true"},
+			{"command": "why would i want them", "output":"'They were trying to grab your prize. They work for the mercenary. The masked man' replies the Driver\n> How do you respond?", "crit":"true"}
+			]
+		</commands>
+	</cia>
+	<cia>
+		<commands>
+			[
+			{"command": "help", "output":"do you need help", "crit":"false"},
+			{"command": "look", "output":"Dr. Pavel is before you, the driver now has the briefcase", "crit":"false"},
+			{"command": "bane?", "output":"'aye', the driver nods in your direction\n> Now what?", "crit":"true"},
+			{"command": "bane", "output":"'aye', the driver nods in your direction\n> Now what?", "crit":"true"},
+			{"command": "bane.", "output":"'aye', the driver nods in your direction\n> Now what?", "crit":"true"}
+			]
+		</commands>
+	</cia>
+	<cia>
+		<commands>
+			[
+			{"command": "help", "output":"do you need help", "crit":"false"},
+			{"command": "look", "output":"the Driver is smiling, your men move towards the prisioners", "crit":"false"},
+			{"command": "get 'em on board - i'll call it in", "output":"Your special forces men move towards the prisoners, grabbing them roughly and frog marching them into the carrier plane.", "crit":"true"},
+			{"command": "get em on board - i'll call it in", "output":"Your special forces men move towards the prisoners, grabbing them roughly and frog marching them into the carrier plane.", "crit":"true"},
+			{"command": "get 'em on board i'll call it in", "output":"'Your special forces men move towards the prisoners, grabbing them roughly and frog marching them into the carrier plane.", "crit":"true"},
+			{"command": "get em on board i'll call it in", "output":"Your special forces men move towards the prisoners, grabbing them roughly and frog marching them into the carrier plane.", "crit":"true"},
+			{"command": "get 'em on board - ill call it in", "output":"Your special forces men move towards the prisoners, grabbing them roughly and frog marching them into the carrier plane.", "crit":"true"},
+			{"command": "get 'em on board ill call it in", "output":"Your special forces men move towards the prisoners, grabbing them roughly and frog marching them into the carrier plane.", "crit":"true"},
+			{"command": "get em on board  ill call it in", "output":"Your special forces men move towards the prisoners, grabbing them roughly and frog marching them into the carrier plane.", "crit":"true"},
+			{"command": "get them on board i'll call it in", "output":"Your special forces men move towards the prisoners, grabbing them roughly and frog marching them into the carrier plane.", "crit":"true"},
+			{"command": "get them on board ill call it in", "output":"Your special forces men move towards the prisoners, grabbing them roughly and frog marching them into the carrier plane.", "crit":"true"},
+			{"command": "get them on board", "output":"Your special forces men move towards the prisoners, grabbing them roughly and frog marching them into the carrier plane.", "crit":"true"},
+			{"command": "i'll call it in", "output":"Your special forces men move towards the prisoners, grabbing them roughly and frog marching them into the carrier plane.", "crit":"true"},
+			{"command": "ill call it in", "output":"Your special forces men move towards the prisoners, grabbing them roughly and frog marching them into the carrier plane.", "crit":"true"}
+			]
+		</commands>
+	</cia>
+	<cia>
+		<commands>
+			[
+			{"command": "help", "output":"do you need help", "crit":"false"},
+			{"command": "look", "output":"You are standing alone, the engines of the carrier plane have started, the jeep is driving off into the distance", "crit":"false"},
+			{"command": "plane", "output":"You enter the carrier plane, and the pilot goes through a series of flight checks to prepare for take off, as he does this, you call the agency and file a flight plan for everyone one board the plane except for two of the prisoners. The plane takes off and you fly low near the mountains for awhile before talking to the prisoners. You get up close and personal with the prisoner on the right, you grab his collar and yell into his ear \n> what do you want to tell him?", "crit":"true"},
+			{"command": "enter", "output":"You enter the carrier plane, and the pilot goes through a series of flight checks to prepare for take off, as he does this, you call the agency and file a flight plan for everyone one board the plane except for two of the prisoners. The plane takes off and you fly low near the mountains for awhile before talking to the prisoners. You get up close and personal with the prisoner on the right, you grab his collar and yell into his ear \n> what do you want to tell him?", "crit":"true"},
+			{"command": "get in plane", "output":"You enter the carrier plane, and the pilot goes through a series of flight checks to prepare for take off, as he does this, you call the agency and file a flight plan for everyone one board the plane except for two of the prisoners. The plane takes off and you fly low near the mountains for awhile before talking to the prisoners. You get up close and personal with the prisoner on the right, you grab his collar and yell into his ear \n> what do you want to tell him?", "crit":"true"},
+			{"command": "get in", "output":"You enter the carrier plane, and the pilot goes through a series of flight checks to prepare for take off, as he does this, you call the agency and file a flight plan for everyone one board the plane except for two of the prisoners. The plane takes off and you fly low near the mountains for awhile before talking to the prisoners. You get up close and personal with the prisoner on the right, you grab his collar and yell into his ear \n> what do you want to tell him?", "crit":"true"},
+			{"command": "board", "output":"You enter the carrier plane, and the pilot goes through a series of flight checks to prepare for take off, as he does this, you call the agency and file a flight plan for everyone one board the plane except for two of the prisoners. The plane takes off and you fly low near the mountains for awhile before talking to the prisoners. You get up close and personal with the prisoner on the right, you grab his collar and yell into his ear \n> what do you want to tell him?", "crit":"true"},
+			{"command": "board plane", "output":"You enter the carrier plane, and the pilot goes through a series of flight checks to prepare for take off, as he does this, you call the agency and file a flight plan for everyone one board the plane except for two of the prisoners. The plane takes off and you fly low near the mountains for awhile before talking to the prisoners. You get up close and personal with the prisoner on the right, you grab his collar and yell into his ear \n> what do you want to tell him?", "crit":"true"}
+			]
+		</commands>
+	</cia>
+	<cia>
+		<commands>
+			[
+			{"command": "help", "output":"do you need help", "crit":"false"},
+			{"command": "look", "output":"the prisoners are handcuffed, and kneeling before you.", "crit":"false"},
+			{"command": "The flight plan i just filed with the agency lists me, my men, and dr. pavel here. but only one of you.", "output":"As you yell, you back away from the prisoners.", "crit":"true"},
+			{"command": "but only one of you.", "output":"As you yell, you back away from the prisoners.", "crit":"true"},
+			{"command": "The flight plan i just filed with the agency lists me, my men, and dr. pavel here.", "output":"As you yell, you back away from the prisoners.", "crit":"true"},
+			{"command": "flight plan", "output":"As you yell, you back away from the prisoners.", "crit":"true"},
+			{"command": "yell", "output":"As you yell, you back away from the prisoners.", "crit":"true"}
+			]
+		</commands>
+	</cia>
+	<cia>
+		<commands>
+			[
+			{"command": "help", "output":"do you need help", "crit":"false"},
+			{"command": "look", "output":"the prisoners are handcuffed, and kneeling before you. you have a gun in your holster", "crit":"false"},
+			{"command": "gun", "output":"You wave your gun towards the plane door, and one of the Special Ops men opens the door.", "crit":"true"},
+			{"command": "wave gun", "output":"You wave your gun towards the plane door, and one of the Special Ops men opens the door.", "crit":"true"},
+			{"command": "wave pistol", "output":"You wave your gun towards the plane door, and one of the Special Ops men opens the door.", "crit":"true"},
+			{"command": "pistol", "output":"You wave your gun towards the plane door, and one of the Special Ops men opens the door.", "crit":"true"},
+			{"command": "draw", "output":"You wave your gun towards the plane door, and one of the Special Ops men opens the door.", "crit":"true"},
+			{"command": "draw gun", "output":"You wave your gun towards the plane door, and one of the Special Ops men opens the door.", "crit":"true"}
+			]
+		</commands>
+	</cia>
+	<cia>
+		<commands>
+			[
+			{"command": "help", "output":"do you need help", "crit":"false"},
+			{"command": "look", "output":"the plane door is open and the wind rages around you, there are three prisoners.", "crit":"false"},
+			{"command": "first one to talk gets to stay on my aircraft", "output":"The Special ops man grabs a prisoner and pulls him towards the door, leaning his head outside, you cock your gun and kneel beside the hooded man.", "crit":"true"},
+			{"command": "yell", "output":"The Special ops man grabs a prisoner and pulls him towards the door, leaning his head outside, you cock your gun and kneel beside the hooded man.", "crit":"true"},
+			{"command": "first one to talk", "output":"The Special ops man grabs a prisoner and pulls him towards the door, leaning his head outside, you cock your gun and kneel beside the hooded man.", "crit":"true"},
+			{"command": "stay on my aircraft", "output":"The Special ops man grabs a prisoner and pulls him towards the door, leaning his head outside, you cock your gun and kneel beside the hooded man.", "crit":"true"}
+			]
+		</commands>
+	</cia>
+	<cia>
+		<commands>
+			[
+			{"command": "help", "output":"do you need help", "crit":"false"},
+			{"command": "look", "output":"the plane door is open and the wind rages around you, there are three prisoners.", "crit":"false"},
+			{"command": "who paid you to grab dr pavel", "output":"the prisoner says nothing, you lean nearer the prisoner, pushing on his neck, and yelling loudly, pointing your gun outside.", "crit":"true"},
+			{"command": "who paid you", "output":"the prisoner says nothing, you lean nearer the prisoner, pushing on his neck, and yelling loudly, pointing your gun outside.", "crit":"true"},
+			{"command": "yell", "output":"the prisoner says nothing, you lean nearer the prisoner, pushing on his neck, and yelling loudly, pointing your gun outside.", "crit":"true"}
+			]
+		</commands>
+	</cia>
+	<cia>
+		<commands>
+			[
+			{"command": "help", "output":"do you need help", "crit":"false"},
+			{"command": "look", "output":"you see the mountains far below you outside the plane and a hooded figure with his head outside the door at your feet, your gun is pointed outside", "crit":"false"},
+			{"command": "shoot", "output":"Your gun rings out over the sounds of the wind and the plane, you stand up and address the other prisoners\n> What do you say?", "crit":"true"},
+			{"command": "fire", "output":"Your gun rings out over the sounds of the wind and the plane, you stand up and address the other prisoners\n> What do you say?", "crit":"true"},
+			{"command": "shoot gun", "output":"Your gun rings out over the sounds of the wind and the plane, you stand up and address the other prisoners\n> What do you say?", "crit":"true"},
+			{"command": "fire gun", "output":"Your gun rings out over the sounds of the wind and the plane, you stand up and address the other prisoners\n> What do you say?", "crit":"true"},
+			{"command": "gun", "output":"Your gun rings out over the sounds of the wind and the plane, you stand up and address the other prisoners\n> What do you say?", "crit":"true"}
+			]
+		</commands>
+	</cia>
+	<cia>
+		<commands>
+			[
+			{"command": "help", "output":"do you need help", "crit":"false"},
+			{"command": "look", "output":"you see the mountains far below you outside the plane and a hooded figure with his head outside the door at your feet, your gun is pointed outside", "crit":"false"},
+			{"command": "he didnt fly so good who wants to try next", "output":"You motion to another prisoner and special ops grab him and stick his head outside the window also, you crouch very near to this man as well.\n> What do you ask him?", "crit":"true"},
+			{"command": "he didnt fly so good", "output":"You motion to another prisoner and special ops grab him and stick his head outside the window also, you crouch very near to this man as well.\n> What do you ask him?", "crit":"true"},
+			{"command": "who wants to try next", "output":"You motion to another prisoner and special ops grab him and stick his head outside the window also, you crouch very near to this man as well.\n> What do you ask him?", "crit":"true"},
+			{"command": "yell", "output":"You motion to another prisoner and special ops grab him and stick his head outside the window also, you crouch very near to this man as well.\n> What do you ask him?", "crit":"true"},
+			{"command": "didnt fly so good", "output":"You motion to another prisoner and special ops grab him and stick his head outside the window also, you crouch very near to this man as well.\n> What do you ask him?", "crit":"true"}
+			]
+		</commands>
+	</cia>
+	<cia>
+		<commands>
+			[
+			{"command": "help", "output":"do you need help", "crit":"false"},
+			{"command": "look", "output":"you see the mountains far below you outside the plane and a hooded figure with his head outside the door at your feet.", "crit":"false"},
+			{"command": "tell me about bane why does he wear the mask", "output":"the prisoner does not speak, you straddle the man dangling out the plane, and point your uncocked gun at his head.", "crit":"true"},
+			{"command": "tell me about bane", "output":"the prisoner does not speak, you straddle the man dangling out the plane, and point your uncocked gun at his head.", "crit":"true"},
+			{"command": "why does he wear the mask", "output":"the prisoner does not speak, you straddle the man dangling out the plane, and point your uncocked gun at his head.", "crit":"true"},
+			{"command": "yell", "output":"the prisoner does not speak, you straddle the man dangling out the plane, and point your uncocked gun at his head.", "crit":"true"}
 			]
 		</commands>
 	</cia>

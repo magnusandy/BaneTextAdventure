@@ -23,7 +23,7 @@ function inputEnter(e, input)
 	{
 		postOutput(input);
 		//looks up if the commmand was valid and sends proper output
-		input = input.toLowerCase();
+		input = scrubCommands(input);
 		var commandOutput = command(currentPlayer, currentPlace, input)
 		postOutput(commandOutput);
 		document.getElementById("consoleInput").value = "";
@@ -50,6 +50,19 @@ function postOutput(input)
 }
 
 /**
+* strips out punctuation so the scripts are easier to write
+*/
+function scrubCommands(input)
+{
+	input = input.toLowerCase();
+	input = input.replace(/'/g, '');
+	input = input.replace(/\./g, '');
+	input = input.replace(/\?/g, '');
+	input = input.replace(/"/g, '');
+	return input;
+}
+
+/**
 * returns the output for the given command at a certian place in the story
 * character is the current story you are playing
 * place is the current part in that characters story you are in, and integer
@@ -72,11 +85,11 @@ function command(character, place, command)
 			return "You are in a jeep, the steering wheel is before you, in the distance you see a plane \n> What would you like to do?";
 		}
 		//start story as cia now with game of thrones references
-		/*if((command == "cia") || (command == "cia man") || (command == "littlefinger") || (command == "little finger") || (command == "petyr baelish"))
+		if((command == "cia") || (command == "cia man") || (command == "littlefinger") || (command == "little finger") || (command == "petyr baelish"))
 		{
 			currentPlayer = "cia";
 			return "You are standing outside, in front of a commuter plane.\n> there are Special Ops soliders with you \n> in the distance you see a jeep driving your way. \n> what would you like to do?"
-		}*/
+		}
 	}
 	//reads in the current part of the story based on your character and place, and searches through for the command you specified
 	var commands = story.getElementsByTagName("story")[0].getElementsByTagName(character)[place].getElementsByTagName("commands")[0].childNodes[0].nodeValue;
