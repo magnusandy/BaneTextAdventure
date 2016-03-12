@@ -12,3 +12,4 @@ story.xml
 	
 video source: https://www.youtube.com/watch?v=VRCM0jWEQjQ
 script source: http://www.imsdb.com/scripts/Dark-Knight-Rises,-The.html
+play now:http://magnusandy.github.io/BaneTextAdventure/
