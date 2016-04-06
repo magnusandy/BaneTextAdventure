@@ -50,7 +50,11 @@ function postOutput(input)
 }
 
 /**
-* strips out punctuation so the scripts are easier to write
+* strips out punctuation so the scripts are easier to write,
+  as well as changes all text to lower case, so a command like
+  "Hi, my name is Bane" becomes "hi my name is bane"
+  this makes the story.xml commands easier to write because
+ there isnt a bunch of options based on punctionation and capitals.
 */
 function scrubCommands(input)
 {
@@ -91,6 +95,22 @@ function command(character, place, command)
 			currentPlayer = "cia";
 			return "You are standing outside, in front of a commuter plane.\n> there are Special Ops soliders with you \n> in the distance you see a jeep driving your way. \n> what would you like to do?"
 		}
+        if((command == "bane" )||(command == "masked man"))
+        {
+            currentPlayer = "bane";
+            return "You are seated a moving vehicle\n>"+
+            " It feels as though the vehicle is driving over rough terrain \n>"+
+ "You cannot see anything,\n> from the feel of it you have a dark colored sack over your head.\n>"+
+ "as well your hands are bound behind your back \n> the vehicle comes to a stop and you feel the two people beside you shift\n>"+
+ "the cold barrel of a gun greets You as you are shuffled out of the vehicle\n> "+
+ "From below the hood you can hear muffled voices\n> "+
+ "\"Dr. Pavel, I'm CIA\" says one of the voices\n> "+
+ "\"He wasn't alone\" mutters a second voice\n> "+
+ "You can hear the confusion in his voice as the first man says\"Ah, you dont get to bring friends\"\n> "+
+"A scared third voice breaks in \"they are not my friends\"\n>"+
+"Amicably the second man continues \"dont worry, no charge for them\"\n> "+
+"You are pushed from behind with the barrel of a gun, What would you like to do?\n>"
+        }
 	}
 	//reads in the current part of the story based on your character and place, and searches through for the command you specified
 	var commands = story.getElementsByTagName("story")[0].getElementsByTagName(character)[place].getElementsByTagName("commands")[0].childNodes[0].nodeValue;
