@@ -451,8 +451,199 @@
 			[
 			{"command": "help", "output":"do you need help", "crit":"false"},
 			{"command": "look", "output":"All you can see is blackness\n> the bindings on your wrists are tight\n>", "crit":"false"},
-			{"command": "kneel", "output":"You kneel to the floor and the pressure of the gun barrel lessens\n> the plane begins to rumble and shake as the engines fire up\n> The plane takes off, and after a few minutes you hear the voice of the first man from before yelling over the roar of the engines\n> 'The flight plan I just filed with the agency lists me, my men, Dr. Pavel here, BUT ONLY ONE OF YOU'\n>", "crit":"true"}
+			{"command": "kneel", "output":"You kneel to the floor and the pressure of the gun barrel lessens\n> the plane begins to rumble and shake as the engines fire up\n> The plane takes off, and after a few minutes you hear the voice of the first man from before yelling over the roar of the engines\n> 'The flight plan I just filed with the agency lists me, my men, Dr. Pavel here, BUT ONLY ONE OF YOU'\n> 'First one to talk get stay on my aircraft!' as he shouts you hear the rush of air as a door is opened. \n>  there is a scuffling noise and you can hear the first man yelling near the doorway 'WHO PAID YOU TO TO GRAB DR PAVEL'\n> there is a short pause and a gunshot 'HE DIDNt FLY SO GOOD' yells the man\n> 'WHO WANTS TO TRY NEXT' he shouts again, you can hear more scuffling towards the open door.\n> 'TELL ME ABOUT BANE!' CIA man is frantic now 'WHY DOES HE WEAR THE MASK?'\n> a handgun cocks and CIA yells again 'LOT OF LOYALTY FOR A HIRED GUN!'\n> maybe is time you said something, what would you like to say?", "crit":"true"},
+			{"command": "sit", "output":"You kneel to the floor and the pressure of the gun barrel lessens\n> the plane begins to rumble and shake as the engines fire up\n> The plane takes off, and after a few minutes you hear the voice of the first man from before yelling over the roar of the engines\n> 'The flight plan I just filed with the agency lists me, my men, Dr. Pavel here, BUT ONLY ONE OF YOU'\n> 'First one to talk get stay on my aircraft!' as he shouts you hear the rush of air as a door is opened. \n>  there is a scuffling noise and you can hear the first man yelling near the doorway 'WHO PAID YOU TO TO GRAB DR PAVEL'\n> there is a short pause and a gunshot 'HE DIDNt FLY SO GOOD' yells the man\n> 'WHO WANTS TO TRY NEXT' he shouts again, you can hear more scuffling towards the open door.\n> 'TELL ME ABOUT BANE!' CIA man is frantic now 'WHY DOES HE WEAR THE MASK?'\n> a handgun cocks and CIA yells again 'LOT OF LOYALTY FOR A HIRED GUN!'\n> maybe is time you said something, what would you like to say?", "crit":"true"},
+			{"command": "move", "output":"You kneel to the floor and the pressure of the gun barrel lessens\n> the plane begins to rumble and shake as the engines fire up\n> The plane takes off, and after a few minutes you hear the voice of the first man from before yelling over the roar of the engines\n> 'The flight plan I just filed with the agency lists me, my men, Dr. Pavel here, BUT ONLY ONE OF YOU'\n> 'First one to talk get stay on my aircraft!' as he shouts you hear the rush of air as a door is opened. \n>  there is a scuffling noise and you can hear the first man yelling near the doorway 'WHO PAID YOU TO TO GRAB DR PAVEL'\n> there is a short pause and a gunshot 'HE DIDNt FLY SO GOOD' yells the man\n> 'WHO WANTS TO TRY NEXT' he shouts again, you can hear more scuffling towards the open door.\n> 'TELL ME ABOUT BANE!' CIA man is frantic now 'WHY DOES HE WEAR THE MASK?'\n> a handgun cocks and CIA yells again 'LOT OF LOYALTY FOR A HIRED GUN!'\n> maybe is time you said something, what would you like to say?", "crit":"true"}
             ]
+		</commands>
+	</bane>
+	<bane>
+			<commands>
+			[
+			{"command": "help", "output":"do you need help", "crit":"false"},
+			{"command": "look", "output":"All you can see is blackness\n> the bindings on your wrists are tight\n>", "crit":"false"},
+			{"command": "or perhaps he is wondering why someone would shoot a man before throwing him out of a plane", "output":"The door slides shut and the sound of the wind lessens in  the cabin\n> CIA man stands before you and speaks 'At least you can talk, who are  you?'", "crit":"true"},
+			{"command": "why someone would shoot a man before throwing him out of a plane", "output":"The door slides shut and the sound of the wind lessens in  the cabin\n> CIA man stands before you and speaks 'At least you can talk, who are  you?'", "crit":"true"},
+			{"command": "why some would shoot a man", "output":"The door slides shut and the sound of the wind lessens in  the cabin\n> CIA man stands before you and speaks 'At least you can talk, who are  you?'", "crit":"true"},
+			{"command": "or perhaps he is wondering why some would shoot a man before throwing him out of a plane", "output":"The door slides shut and the sound of the wind lessens in  the cabin\n> CIA man stands before you and speaks 'At least you can talk, who are  you?'", "crit":"true"},
+			{"command": "throwing him out of a plane", "output":"The door slides shut and the sound of the wind lessens in  the cabin\n> CIA man stands before you and speaks 'At least you can talk, who are  you?'", "crit":"true"},
+			{"command": "or hes wondering why someone would shoot a man before throwing him out of an aeroplane", "output":"The door slides shut and the sound of the wind lessens in  the cabin\n> CIA man stands before you and speaks 'At least you can talk, who are  you?'", "crit":"true"},
+            {"command": "heavy breathing", "output":"The door slides shut and the sound of the wind lessens in  the cabin\n> CIA man stands before you and speaks 'At least you can talk, who are  you?'", "crit":"true"}
+			]
+		</commands>
+	</bane>
+	<bane>
+			<commands>
+			[
+			{"command": "help", "output":"do you need help", "crit":"false"},
+			{"command": "look", "output":"All you can see is blackness\n> the bindings on your wrists are tight\n>", "crit":"false"},
+			{"command": "it does not matter who we are what matters is our plan", "output":"You can hear CIA getting close to you, you feel a hand reach out and remove the bag on your head\n> you are now staring into the face of CIA, what do you want to say?", "crit":"true"},
+			{"command": "it does not matter who we are", "output":"You can hear CIA getting close to you, you feel a hand reach out and remove the bag on your head\n> you are now staring into the face of CIA, what do you want to say?", "crit":"true"},
+			{"command": "what matters is our plan", "output":"You can hear CIA getting close to you, you feel a hand reach out and remove the bag on your head\n> you are now staring into the face of CIA, what do you want to say?", "crit":"true"},
+			{"command": "heavy breathing", "output":"You can hear CIA getting close to you, you feel a hand reach out and remove the bag on your head\n> you are now staring into the face of CIA, what do you want to say?", "crit":"true"},
+			{"command": "it does not matter", "output":"You can hear CIA getting close to you, you feel a hand reach out and remove the bag on your head\n> you are now staring into the face of CIA, what do you want to say?", "crit":"true"}
+            ]
+		</commands>
+	</bane>
+	<bane>
+			<commands>
+			[
+			{"command": "help", "output":"do you need help", "crit":"false"},
+			{"command": "look", "output":"You see the face of CIA in front of  you", "crit":"false"},
+			{"command": "no one cared who i was till i put on the mask", "output":"'If i pull that off will you die??' asks CIA who is now kneeling in front of  you\n> how do you respond?", "crit":"true"},
+			{"command": "no one cared", "output":"'If i pull that off will you die??' asks CIA who is now kneeling in front of  you\n> how do you respond?", "crit":"true"},
+            {"command": "no one cared who i was", "output":"'If i pull that off will you die??' asks CIA who is now kneeling in front of  you\n> how do you respond?", "crit":"true"},
+            {"command": "till i put on the mask", "output":"'If i pull that off will you die??' asks CIA who is now kneeling in front of  you\n> how do you respond?", "crit":"true"},
+			{"command": "heavy breathing", "output":"'If i pull that off will you die??' asks CIA who is now kneeling in front of  you\n> how do you respond?", "crit":"true"}
+            ]
+		</commands>
+	</bane>
+	<bane>
+			<commands>
+			[
+			{"command": "help", "output":"do you need help", "crit":"false"},
+			{"command": "look", "output":"You see the face of CIA in front of  you", "crit":"false"},
+			{"command": "it would be extremely painful", "output":"'You're a big guy - '", "crit":"true"},
+			{"command": "extremely painful", "output":"'You're a big guy - '", "crit":"true"},
+			{"command": "painful", "output":"'You're a big guy - '", "crit":"true"},
+			{"command": "heavy breathing", "output":"'You're a big guy - '", "crit":"true"}
+            ]
+		</commands>
+	</bane>
+	<bane>
+			<commands>
+			[
+			{"command": "help", "output":"do you need help", "crit":"false"},
+			{"command": "look", "output":"You see the face of CIA in front of  you", "crit":"false"},
+			{"command": "for you", "output":"'Was getting caught part of your plan?'", "crit":"true"},
+			{"command": "heavy breathing", "output":"'Was getting caught part of your plan?'", "crit":"true"}
+            ]
+		</commands>
+	</bane>
+	<bane>
+			<commands>
+			[
+			{"command": "help", "output":"do you need help", "crit":"false"},
+			{"command": "look", "output":"You see the face of CIA in front of  you", "crit":"false"},
+			{"command": "of course", "output":"You stare intently at CIA, above you, you hear the faint sounds of another plane\n> please continue the monologue", "crit":"true"},
+			{"command": "heavy breathing", "output":"You stare intently at CIA from above you, you hear the faint sounds of another plane\n> please continue the monologue", "crit":"true"}
+            ]
+		</commands>
+	</bane>
+	<bane>
+			<commands>
+			[
+			{"command": "help", "output":"do you need help", "crit":"false"},
+			{"command": "look", "output":"You see the face of CIA in front of  you", "crit":"false"},
+			{"command": "dr pavel refused our offer in favour of yours we had to find out what he told you", "output":"'Nothing! I said Nothing!' yells Dr. Pavel from the back of the plane\n> The plane is shaking now with turbulance\n> with a smug smile, CIA speaks 'well congradulations, you got yourself caught!'\n> 'SIR!' a startled marine shouts as he looks out the window\n> 'Now what is the next step in your master plan??'", "crit":"true"},
+			{"command": "dr pavel refused our offer", "output":"'Nothing! I said Nothing!' yells Dr. Pavel from the back of the plane\n> The plane is shaking now with turbulance\n> with a smug smile, CIA speaks 'well congradulations, you got yourself caught!'\n> 'SIR!' a startled marine shouts as he looks out the window\n> 'Now what is the next step in your master plan??'", "crit":"true"},
+			{"command": "we had to find out what he told you", "output":"'Nothing! I said Nothing!' yells Dr. Pavel from the back of the plane\n> The plane is shaking now with turbulance\n> with a smug smile, CIA speaks 'well congradulations, you got yourself caught!'\n> 'SIR!' a startled marine shouts as he looks out the window\n> 'Now what is the next step in your master plan??'", "crit":"true"},
+			{"command": "dr pavel refused", "output":"'Nothing! I said Nothing!' yells Dr. Pavel from the back of the plane\n> The plane is shaking now with turbulance\n> with a smug smile, CIA speaks 'well congradulations, you got yourself caught!'\n> 'SIR!' a startled marine shouts as he looks out the window\n> 'Now what is the next step in your master plan??'", "crit":"true"},
+			{"command": "heavy breathing", "output":"'Nothing! I said Nothing!' yells Dr. Pavel from the back of the plane\n> The plane is shaking now with turbulance\n> with a smug smile, CIA speaks 'well congradulations, you got yourself caught!'\n> 'SIR!' a startled marine shouts as he looks out the window\n> 'Now what is the next step in your master plan??'", "crit":"true"}
+            ]
+		</commands>
+	</bane>
+	<bane>
+			<commands>
+			[
+			{"command": "help", "output":"do you need help", "crit":"false"},
+			{"command": "look", "output":"You see the face of CIA in front of  you", "crit":"false"},
+			{"command": "crashing this plane", "output":"as you speak you jump to your feet, break your bonds and yell...", "crit":"true"}
+            ]
+		</commands>
+	</bane>
+	<bane>
+			<commands>
+			[
+			{"command": "help", "output":"do you need help", "crit":"false"},
+			{"command": "look", "output":"You see the face of CIA in front of  you", "crit":"false"},
+			{"command": "with no survivors", "output":"Gunfire suddenly errupts from outside the plane, bullets are flying through the window\n> CIA is standing before you, what do you do?", "crit":"true"},
+			{"command": "no survivors", "output":"Gunfire suddenly errupts from outside the plane, bullets are flying through the window\n> CIA is standing before you, what do you do?", "crit":"true"}
+            ]
+		</commands>
+	</bane>
+	<bane>
+			<commands>
+			[
+			{"command": "help", "output":"do you need help", "crit":"false"},
+			{"command": "look", "output":"You see the face of CIA in front of  you", "crit":"false"},
+			{"command": "punch", "output":"you smash CIA in the face with your fist, bullets are flying everywhere the plane begins to dip downward, there is the sound of shearing metal from outside. CIA and his men have fallen towards the nose of the ship in, they are crumbled in a large tangle of bodies below you. one seat below you is Dr. Pavel", "crit":"true"},
+			{"command": "hit", "output":"you smash CIA in the face with your fist, bullets are flying everywhere the plane begins to dip downward, there is the sound of shearing metal from outside. CIA and his men have fallen towards the nose of the ship in, they are crumbled in a large tangle of bodies below you. one seat below you is Dr. Pavel", "crit":"true"},
+			{"command": "slap", "output":"you smash CIA in the face with your fist, bullets are flying everywhere the plane begins to dip downward, there is the sound of shearing metal from outside. CIA and his men have fallen towards the nose of the ship in, they are crumbled in a large tangle of bodies below you. one seat below you is Dr. Pavel", "crit":"true"}
+            ]
+		</commands>
+	</bane>
+	<bane>
+			<commands>
+			[
+			{"command": "help", "output":"do you need help", "crit":"false"},
+			{"command": "look", "output":"You need to move to Dr. Pavel", "crit":"false"},
+			{"command": "jump", "output":"You gracefully jump down to the next row of seats, one of the army men below tries to shoot up at you\n> you gracefully dodge the shot and a gun takes him out from above. \n> There is a blast from the rear of the plane and the tail is blown off\n> from the hole in the tail two men and a body bag are threaded into the interior of the plane, you move towards Dr. Pavel, what do you do", "crit":"true"},
+			{"command": "move", "output":"You gracefully jump down to the next row of seats, one of the army men below tries to shoot up at you\n> you gracefully dodge the shot and a gun takes him out from above. \n> There is a blast from the rear of the plane and the tail is blown off\n> from the hole in the tail two men and a body bag are threaded into the interior of the plane, you move towards Dr. Pavel, what do you do", "crit":"true"},
+			{"command": "fall", "output":"You gracefully jump down to the next row of seats, one of the army men below tries to shoot up at you\n> you gracefully dodge the shot and a gun takes him out from above. \n> There is a blast from the rear of the plane and the tail is blown off\n> from the hole in the tail two men and a body bag are threaded into the interior of the plane, you move towards Dr. Pavel, what do you do", "crit":"true"}
+            ]
+		</commands>
+	</bane>
+	<bane>
+			<commands>
+			[
+			{"command": "help", "output":"do you need help", "crit":"false"},
+			{"command": "look", "output":"you need to get Pavels arm ready", "crit":"false"},
+			{"command": "grab arm", "output":"You move towards Pavel and grab his arm, you slide down his shirt sleve, bearing his arm and push a needle into his vein, drawing his blood into the body in the bag \n> you swaddle Dr Pavel in a harness so he can be pulled out of the plane.\n> in the seat below you, one of your men is taking his seatbelt off and looks ready to leave\n> what do you say to him?", "crit":"true"},
+			{"command": "grab", "output":"You move towards Pavel and grab his arm, you slide down his shirt sleve, bearing his arm and push a needle into his vein, drawing his blood into the body in the bag \n> you swaddle Dr Pavel in a harness so he can be pulled out of the plane.\n> in the seat below you, one of your men is taking his seatbelt off and looks ready to leave\n> what do you say to him?", "crit":"true"},
+			{"command": "arm", "output":"You move towards Pavel and grab his arm, you slide down his shirt sleve, bearing his arm and push a needle into his vein, drawing his blood into the body in the bag \n> you swaddle Dr Pavel in a harness so he can be pulled out of the plane.\n> in the seat below you, one of your men is taking his seatbelt off and looks ready to leave\n> what do you say to him?", "crit":"true"},
+			{"command": "needle", "output":"You move towards Pavel and grab his arm, you slide down his shirt sleve, bearing his arm and push a needle into his vein, drawing his blood into the body in the bag \n> you swaddle Dr Pavel in a harness so he can be pulled out of the plane.\n> in the seat below you, one of your men is taking his seatbelt off and looks ready to leave\n> what do you say to him?", "crit":"true"},
+			{"command": "blood", "output":"You move towards Pavel and grab his arm, you slide down his shirt sleve, bearing his arm and push a needle into his vein, drawing his blood into the body in the bag \n> you swaddle Dr Pavel in a harness so he can be pulled out of the plane.\n> in the seat below you, one of your men is taking his seatbelt off and looks ready to leave\n> what do you say to him?", "crit":"true"},
+			{"command": "stab", "output":"You move towards Pavel and grab his arm, you slide down his shirt sleve, bearing his arm and push a needle into his vein, drawing his blood into the body in the bag \n> you swaddle Dr Pavel in a harness so he can be pulled out of the plane.\n> in the seat below you, one of your men is taking his seatbelt off and looks ready to leave\n> what do you say to him?", "crit":"true"}
+			]
+		</commands>
+	</bane>
+	<bane>
+			<commands>
+			[
+			{"command": "help", "output":"do you need help", "crit":"false"},
+			{"command": "look", "output":"you can't let him leave", "crit":"false"},
+			{"command": "woah", "output":"'Have we started the fire?' he asks", "crit":"true"},
+			{"command": "stop", "output":"'Have we started the fire?' he asks", "crit":"true"},
+			{"command": "woah they expect one of us in the wreckage brother", "output":"'Have we started the fire?' he asks", "crit":"true"},
+			{"command": "expect one of us in the wreckage brother", "output":"'Have we started the fire?' he asks", "crit":"true"},
+			{"command": "expect one of us", "output":"'Have we started the fire?' he asks", "crit":"true"}
+			]
+		</commands>
+	</bane>
+	<bane>
+			<commands>
+			[
+			{"command": "help", "output":"do you need help", "crit":"false"},
+			{"command": "look", "output":"you can't let him leave", "crit":"false"},
+			{"command": "yes the fire rises", "output":"you move towards Dr Pavel, grabbing him around the waist and holding him in your arms like a baby\n> Dr Pavel is squirming and screaming, what do you do?", "crit":"true"},
+			{"command": "yes", "output":"you move towards Dr Pavel, grabbing him around the waist and holding him in your arms like a baby\n> Dr Pavel is squirming and screaming, what do you do?", "crit":"true"},
+			{"command": "fire rises", "output":"you move towards Dr Pavel, grabbing him around the waist and holding him in your arms like a baby\n> Dr Pavel is squirming and screaming, what do you do?", "crit":"true"}
+			]
+		</commands>
+	</bane>
+	<bane>
+			<commands>
+			[
+			{"command": "help", "output":"do you need help", "crit":"false"},
+			{"command": "look", "output":"you gotta calm Pavel down", "crit":"false"},
+			{"command": "calm down doctor now is not the time for fear that comes later", "output":"You shout to the good doctor and grab the release button and hold it out in front of you\n> what would you like to do?", "crit":"true"},
+			{"command": "calm down", "output":"You shout to the good doctor and grab the release button and hold it out in front of you\n> what would you like to do?", "crit":"true"},
+			{"command": "calm down doctor", "output":"You shout to the good doctor and grab the release button and hold it out in front of you\n> what would you like to do?", "crit":"true"},
+			{"command": "that comes later", "output":"You shout to the good doctor and grab the release button and hold it out in front of you\n> what would you like to do?", "crit":"true"},
+			{"command": "now is not the time for fear", "output":"You shout to the good doctor and grab the release button and hold it out in front of you\n> what would you like to do?", "crit":"true"}
+			]
+		</commands>
+	</bane>
+	<bane>
+			<commands>
+			[
+			{"command": "help", "output":"do you need help", "crit":"false"},
+			{"command": "look", "output":"Button is ready to be pressed", "crit":"false"},
+			{"command": "press", "output":"You press the button, what is left of the plane and CIA fall away below you, you are left dangling by a cable holding a screaming Dr. Pavel", "crit":"gameOver"},
+			{"command": "push", "output":"You press the button, what is left of the plane and CIA fall away below you, you are left dangling by a cable holding a screaming Dr. Pavel", "crit":"gameOver"},
+			{"command": "button", "output":"You press the button, what is left of the plane and CIA fall away below you, you are left dangling by a cable holding a screaming Dr. Pavel", "crit":"gameOver"}
+			]
 		</commands>
 	</bane>
 </story>
